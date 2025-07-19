@@ -88,10 +88,10 @@ Delete the workgroup and namespace from the Serverless dashboard
 ---
 ## Screenshots
 * [Redshift IAM Role Created](images/1.%20Redshift%20Role%20Screenshot.png)
-* [IAM Role Attached to Namespace](images/iam_role_attached_to_namespace.png)
-* [Workgroup and Namespace Available](images/workgroup_namespace_available.png)
-* [Songplays Query in Query Editor v2](images/query_editor_songplays.png)
-* [ETL Pipeline Success in Terminal](images/terminal_etl_success.png)
+* [IAM Role Attached to Namespace](images/2.%20Set%20associate%20IAM%20role.png)
+* [Workgroup and Namespace Available](images/3.%20Namespace%20and%20workgroup%20available.png)
+* [Songplays Query in Query Editor v2](images/4.%20Songplay%20row%20query.png)
+* [ETL Pipeline Success in Terminal](images/5.%20ETL%20terminal%20success.png)
 
 ---
 
