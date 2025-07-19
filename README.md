@@ -94,8 +94,7 @@ Delete the workgroup and namespace from the Serverless dashboard
 * [ETL Pipeline Success in Terminal](images/terminal_etl_success.png)
 
 ---
+
 Author
-
 Kenneth Idem
-
 github.com/k-idem
