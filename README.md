@@ -62,6 +62,27 @@ nano dwh.cfg
 python create_tables.py
 python etl.py
 ```
+---
+
+## Validate the Load
+
+After `python etl.py` finishes:
+
+1. **AWS Console** → **Amazon Redshift**.  
+2. Click **Query data** (upper‑right) to open **Query Editor v2**.  
+3. In the connect dialog choose:  
+   - **Connection type**: *Amazon Redshift Serverless*  
+   - **Workgroup**: `redshift-demo-wg`  
+   - **Database**: `dev`  
+   - **Authentication**: *Federated user* **or** *Database user & password* (`admin` / your password)  
+4. Paste and run:
+
+   ```sql
+   SELECT COUNT(*) AS songplay_rows FROM songplays;
+# Cleanup
+# Delete the workgroup and namespace from the Serverless dashboard
+# (Actions → Delete workgroup → “Also delete namespace”).
+```
 
 ---
 ## Screenshots
@@ -70,3 +91,8 @@ python etl.py
 * [Workgroup and Namespace Available](images/workgroup_namespace_available.png)
 * [Songplays Query in Query Editor v2](images/query_editor_songplays.png)
 * [ETL Pipeline Success in Terminal](images/terminal_etl_success.png)
+
+---
+Author
+Kenneth Idem
+github.com/k-idem
