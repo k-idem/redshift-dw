@@ -83,7 +83,7 @@ After `python etl.py` finishes:
 ## Cleanup
 Delete the workgroup and namespace from the Serverless dashboard
  (Actions → Delete workgroup → “Also delete namespace”).
-```
+
 
 ---
 ## Screenshots
