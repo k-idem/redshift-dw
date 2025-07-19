@@ -95,5 +95,7 @@ Delete the workgroup and namespace from the Serverless dashboard
 
 ---
 Author
+
 Kenneth Idem
+
 github.com/k-idem
