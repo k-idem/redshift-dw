@@ -79,9 +79,10 @@ After `python etl.py` finishes:
 
    ```sql
    SELECT COUNT(*) AS songplay_rows FROM songplays;
-# Cleanup
-# Delete the workgroup and namespace from the Serverless dashboard
-# (Actions → Delete workgroup → “Also delete namespace”).
+
+## Cleanup
+Delete the workgroup and namespace from the Serverless dashboard
+ (Actions → Delete workgroup → “Also delete namespace”).
 ```
 
 ---
